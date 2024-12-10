@@ -9,6 +9,9 @@ export default {
       colors: {
         primary: '#FFCC00'
       },
+      boxShadow: {
+        'profile-shadow': '0 8px 8px rgba(0, 0, 0, 0.2)',
+      },
       screens: {
         sm: '480px',
         md: '768px',
