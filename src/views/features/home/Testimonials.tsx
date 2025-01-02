@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const Testimonials: React.FC = () => {
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="grid gap-6 lg:grid-cols-2" id="testimonial">
       <div>
         <img
           src="https://images.pexels.com/photos/29439346/pexels-photo-29439346/free-photo-of-woman-playing-pickleball-in-hanoi-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

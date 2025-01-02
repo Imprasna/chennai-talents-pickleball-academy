@@ -2,7 +2,7 @@ import React from "react";
 
 const About: React.FC = () => {
   return (
-    <div>
+    <div id="about-us">
       <span className="block mb-2 text-xs font-medium tracking-widest uppercase lg:text-center dark:text-violet-600">
         How it works
       </span>

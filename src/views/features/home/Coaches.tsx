@@ -3,7 +3,7 @@ import { UserGroupIcon } from '@heroicons/react/24/outline'
 
 const Coaches: React.FC = () => {
   return (
-    <div>
+    <div id="coach">
       <div className="container p-6 py-20 mx-auto rounded lg:px-8 dark:bg-gray-50">
         <h2 className="text-5xl font-bold text-center">
           Our team is here to help you.
