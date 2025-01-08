@@ -1,4 +1,5 @@
 import Logo from '../../assets/logo.jpeg';
+import './NavBar.css';
 
 export default function Navbar() {
   return (
@@ -7,9 +8,9 @@ export default function Navbar() {
 			<div className="items-center hidden space-x-8 lg:flex">
 				<div className="space-x-4">
 					{/* <a rel="noopener noreferrer" href="/">Home</a> */}
-					<a rel="noopener noreferrer" href="#about-us">About Us</a>
-					<a rel="noopener noreferrer" href="#testimonial">Testimonials</a>
-					<a rel="noopener noreferrer" href="#coach">Coaches</a>
+					<a rel="noopener noreferrer" className="nav-anchor" href="#about-us">About Us</a>
+					<a rel="noopener noreferrer" className="nav-anchor" href="#testimonial">Testimonials</a>
+					<a rel="noopener noreferrer" className="nav-anchor" href="#coach">Coaches</a>
 				</div>
 				<button className="px-4 py-2 rounded-md bg-yellow-300 text-gray-700">Sign up</button>
 			</div>
