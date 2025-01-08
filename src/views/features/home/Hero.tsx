@@ -22,11 +22,11 @@ const Hero: React.FC = () => {
             </span>
             The ultimate pickleball system for players at every level.
           </p>
-          <button className="w-full py-2 font-semibold rounded dark:bg-violet-600 dark:text-gray-50">
+          <button className="w-full py-2 font-semibold rounded-md bg-yellow-300 text-gray-800">
             Sign Up Today
           </button>
         </div>
-        <div className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500">
+        <div className="object-cover w-full h-full rounded-md xl:col-span-3 bg-gray-500">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}

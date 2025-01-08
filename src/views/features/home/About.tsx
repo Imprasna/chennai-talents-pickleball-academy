@@ -10,7 +10,7 @@ const About: React.FC = () => {
         Mastering the Court
       </h2>
       <div className="grid gap-6 my-16 lg:grid-cols-3">
-        <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50 drop-shadow-[5px_9px_7px_#696969]">
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
           <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
             1
           </div>
@@ -20,7 +20,7 @@ const About: React.FC = () => {
             court awareness.
           </p>
         </div>
-        <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50 drop-shadow-[5px_9px_7px_#696969]">
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
           <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
             2
           </div>
@@ -31,7 +31,7 @@ const About: React.FC = () => {
             personalized coaching.
           </p>
         </div>
-        <div className="flex flex-col p-8 space-y-4 rounded-md dark:bg-gray-50 drop-shadow-[5px_9px_7px_#696969]">
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
           <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
             3
           </div>
