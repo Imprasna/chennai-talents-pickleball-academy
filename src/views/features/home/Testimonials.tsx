@@ -106,7 +106,7 @@ const Testimonials: React.FC = () => {
       </div> */}
 
       {/* Work with us */}
-      <div className="p-8 space-y-8 rounded-md lg:col-span-full lg:py-12 dark:bg-gray-50">
+      {/* <div className="p-8 space-y-8 rounded-md lg:col-span-full lg:py-12 dark:bg-gray-50">
         <h2 className="text-5xl font-bold dark:text-gray-900">
           Create with us
         </h2>
@@ -118,7 +118,7 @@ const Testimonials: React.FC = () => {
           atque tenetur enim pariatur cupiditate commodi in beatae, ipsa
           eligendi? Quis, saepe.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
