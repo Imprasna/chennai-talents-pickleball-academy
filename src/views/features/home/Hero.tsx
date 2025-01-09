@@ -8,8 +8,8 @@ import { Autoplay } from "swiper/modules";
 const Hero: React.FC = () => {
   return (
     <div>
-      <div className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5">
-        <div className="flex flex-col justify-center w-full p-6 rounded-md sm:p-16 xl:col-span-2 dark:bg-gray-50">
+      <div className="grid gap-6 text-center lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-1">
+        <div className="flex flex-col justify-center align-center w-full p-6 rounded-md sm:p-16 xl:col-span-2 dark:bg-gray-50">
           <span className="block mb-2 dark:text-violet-600">
             Chennai Talents Pickle Ball Academy
           </span>
@@ -18,15 +18,15 @@ const Hero: React.FC = () => {
           </h1>
           <p className="my-8">
             <span className="font-medium dark:text-gray-900">
-              Adaptable and dynamic.&nbsp; <br></br>
+              Adaptable and dynamic. <br></br>
             </span>
             The ultimate pickleball system for players at every level.
           </p>
-          <button className="w-full py-2 font-semibold rounded-md bg-yellow-300 text-gray-800">
+          <button className="w-full md:w-1/2 py-2 font-semibold rounded-md bg-yellow-300 text-gray-800">
             Sign Up Today
           </button>
         </div>
-        <div className="object-cover w-full h-full rounded-md xl:col-span-3 bg-gray-500">
+        <div className="object-cover w-full h-full rounded-md xl:col-span-3 overflow-hidden">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             pagination={{
               clickable: false,
             }}
-            navigation={true}
+            navigation={false}
             modules={[Autoplay]}
             className="mySwiper"
           >
