@@ -9,11 +9,11 @@ const Hero: React.FC = () => {
   return (
     <div>
       <div className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5 md:grid-cols-1">
-        <div className="flex flex-col justify-center items-center w-full p-6 rounded-md sm:p-16 xl:col-span-2 dark:bg-gray-50">
+        <div className="flex flex-col justify-center items-center w-full rounded-md xl:col-span-2 dark:bg-gray-50">
           <span className="block mb-2 dark:text-violet-600">
             Chennai Talents Pickle Ball Academy
           </span>
-          <h1 className="text-5xl font-extrabold dark:text-gray-900">
+          <h1 className="xl:text-5xl lg:text-3xl text-5xl font-extrabold dark:text-gray-900">
             Create Your Gaming Legacy
           </h1>
           <p className="my-8">
@@ -58,28 +58,28 @@ const Hero: React.FC = () => {
           >
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/29820786/pexels-photo-29820786/free-photo-of-empty-pickleball-court-with-net-in-summer-sun.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/163452/basketball-dunk-blue-game-163452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/29665452/pexels-photo-29665452/free-photo-of-female-athlete-at-ahp-sports-event-in-hai-phong.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/29439337/pexels-photo-29439337/free-photo-of-young-man-playing-pickleball-indoors-in-hanoi.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/848618/pexels-photo-848618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/17299534/pexels-photo-17299534/free-photo-of-ball-and-paddle-on-court.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500"
               />
