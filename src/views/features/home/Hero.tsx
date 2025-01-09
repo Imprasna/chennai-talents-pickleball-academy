@@ -8,8 +8,8 @@ import { Autoplay } from "swiper/modules";
 const Hero: React.FC = () => {
   return (
     <div>
-      <div className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5 md:grid-cols-1">
-        <div className="flex flex-col justify-center items-center w-full rounded-md xl:col-span-2 dark:bg-gray-50">
+      <div className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-6 md:grid-cols-1">
+        <div className="flex flex-col justify-center items-center w-full rounded-md xl:col-span-3 dark:bg-gray-50">
           <span className="block mb-2 dark:text-violet-600">
             Chennai Talents Pickle Ball Academy
           </span>
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </span>
             The ultimate pickleball system for players at every level.
           </p>
-          <button className="xl:w-full md:w-1/2 w-full py-2 font-semibold rounded-md bg-yellow-300 text-gray-800">
+          <button className="md:w-1/2 w-full py-2 font-semibold rounded-md bg-yellow-300 text-gray-800">
             Sign Up Today
           </button>
         </div>

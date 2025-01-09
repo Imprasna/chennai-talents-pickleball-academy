@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css'
 
 const About: React.FC = () => {
   return (
@@ -10,33 +11,27 @@ const About: React.FC = () => {
         Mastering the Court
       </h2>
       <div className="grid gap-6 my-16 lg:grid-cols-3">
-        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
-          <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
-            1
-          </div>
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930] relative level-card">
+          <h3 className="text-3xl font-semibold">Beginner</h3>
           <p className="text-xl font-normal">
-            <b>Beginner.</b>Transform from first-time player to confident
+            Transform from first-time player to confident
             competitor through expert guidance in dinking, paddle control, and
             court awareness.
           </p>
         </div>
-        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
-          <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
-            2
-          </div>
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930] relative level-card">
+        <h3 className="text-3xl font-semibold">Intermediate</h3>
           <p className="text-xl font-normal">
-            <b>Intermediate.</b>Perfect your baseline precision, master
+            Perfect your baseline precision, master
             strategic volleys, and develop advanced court tactics while
             elevating your competitive edge through targeted drills and
             personalized coaching.
           </p>
         </div>
-        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930]">
-          <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full dark:bg-violet-600 dark:text-gray-50">
-            3
-          </div>
+        <div className="flex flex-col p-8 space-y-4 rounded-md bg-gray-50 drop-shadow-[0px_3px_9px_#69696930] relative level-card">
+        <h3 className="text-3xl font-semibold">Advanced</h3>
           <p className="text-xl font-normal">
-            <b>Advanced.</b>Perfect your precision spins, aggressive net play,
+            Perfect your precision spins, aggressive net play,
             and advanced court strategies while developing the tactical mastery
             needed to compete at championship levels.
           </p>
