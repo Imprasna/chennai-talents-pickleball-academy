@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const Testimonials: React.FC = () => {
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="grid gap-6 lg:grid-cols-2" id="testimonial">
       <div>
         <img
           src="https://images.pexels.com/photos/29439346/pexels-photo-29439346/free-photo-of-woman-playing-pickleball-in-hanoi-vietnam.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -106,7 +106,7 @@ const Testimonials: React.FC = () => {
       </div> */}
 
       {/* Work with us */}
-      <div className="p-8 space-y-8 rounded-md lg:col-span-full lg:py-12 dark:bg-gray-50">
+      {/* <div className="p-8 space-y-8 rounded-md lg:col-span-full lg:py-12 dark:bg-gray-50">
         <h2 className="text-5xl font-bold dark:text-gray-900">
           Create with us
         </h2>
@@ -118,7 +118,7 @@ const Testimonials: React.FC = () => {
           atque tenetur enim pariatur cupiditate commodi in beatae, ipsa
           eligendi? Quis, saepe.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

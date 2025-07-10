@@ -1,0 +1,27 @@
+.level-card:nth-child(1)::before {
+    content: "1";
+}
+
+.level-card:nth-child(2)::before {
+    content: "2";
+}
+
+.level-card:nth-child(3)::before {
+    content: "3";
+}
+
+/* Add more as needed */
+
+.level-card::before {
+    position: absolute;
+    font-size: 200px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-inline-start: -58px;
+    margin-block-start: -25px;
+    padding: 0;
+    line-height: 0.4;
+    color: #e0e0e0;
+    z-index: -1;
+}
